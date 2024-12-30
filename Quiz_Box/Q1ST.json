@@ -1,0 +1,129 @@
+{
+    "a1": {
+        "question": "Which retro operating system, introduced by Microsoft in 1985, was known for its graphical user interface? The first letter of your answer is your letter.",
+        "answer": "Windows",
+        "letter": "W",
+        "hint": "Look near a place where you might find old computers or software."
+    },
+    "a2": {
+        "question": "Which 80s TV channel became a global symbol of youth culture, known for airing music videos 24/7? The first letter of your answer is your letter.",
+        "answer": "MTV",
+        "letter": "M",
+        "hint": "Check around a place related to music or entertainment."
+    },
+    "a3": {
+        "question": "Which famous superhero, introduced in 1938, became a symbol of justice and truth, wearing a blue suit with a red cape? The first letter of your answer is your letter.",
+        "answer": "Superman",
+        "letter": "S",
+        "hint": "The clue is near something related to comic books or superheroes."
+    },
+    "a4": {
+        "question": "Which 80s arcade game featured a maze, and players had to clear it while avoiding ghosts? The first letter of your answer is your letter.",
+        "answer": "Pac-Man",
+        "letter": "P",
+        "hint": "Look for a place where you'd expect to find something from the arcade."
+    },
+
+    "a5": {
+        "question": "Which popular Indian superhero show, aired in the 2010s, featured a young boy, who was granted magical powers by fairies to fight evil? The first letter of your answer is your letter.",
+        "answer": "Balveer",
+        "letter": "B",
+        "hint": "Look for a place related to children's TV shows or Indian superhero series."
+    },
+    
+    "a6": {
+        "question": "Which 80s computer, has been listed in the Guinness World Records as the highest-selling single computer model of all time? The first letter of your answer is your letter.",
+        "answer": "Commodore 64",
+        "letter": "C",
+        "hint": "Search for a place with something old-school or computer-related."
+    },
+    "a7": {
+        "question": "Which 1980s animated series featured a team of vehicles that could transform into robots, often fighting against evil forces? The first letter of your answer is your letter.",
+        "answer": "Transformers",
+        "letter": "T",
+        "hint": "Find the clue near something that involves robots or transformation."
+    },
+    "a8": {
+        "question": "Which popular 80s superhero duo from India fought villains while using their special powers to protect the weak , created by Mukesh Khanna that aired on DD National from 1997 to 2005 ? The first letter of your answer is your letter.",
+        "answer": "Shaktimaan",
+        "letter": "S",
+        "hint": "Look near a place related to Indian superheroes or TV shows."
+    },
+    "a9": {
+        "question": "Which 1980s TV network,an American cable television channel owned by Warner Bros. Discovery ,known for airing animated cartoons and shows? The first letter of your answer is your letter.",
+        "answer": "Cartoon Network",
+        "letter": "C",
+        "hint": "The clue might be hidden near a place where you’d find cartoons."
+    },
+    "a10": {
+        "question": "Which 80s superhero was part of the Justice League, known for his ring that could create anything his mind could imagine? The first letter of your answer is your letter.",
+        "answer": "Green Lantern",
+        "letter": "G",
+        "hint": "Check near a place with superhero comics or superhero memorabilia."
+    },
+    "a11": {
+        "question": "Which 1980s video game console, known for its ‘boxy’ design, was a major rival to the Sega Genesis and had games like 'Super Mario Bros.'? The first letter of your answer is your letter.",
+        "answer": "Nintendo Entertainment System (NES)",
+        "letter": "N",
+        "hint": "Look near a place where you might find retro video games or consoles."
+    },
+    "a12": {
+        "question": "Which famous 1980s animated series featured a group of mutant superheroes, and became a major part of pop culture based on the Marvel Comics? The first letter of your answer is your letter.",
+        "answer": "X-Men",
+        "letter": "X",
+        "hint": "Search around places related to comics or animated TV shows."
+    },
+    "a13": {
+        "question": "Which iconic 2000s Bollywood movie featured a young man who befriends an extraterrestrial being, and helps him return to his home spaceship? The first letter of your answer is your letter.",
+        "answer": "Koi... Mil Gaya",
+        "letter": "K",
+        "hint": "Look for a clue near something related to Bollywood movies or science fiction."
+    },    
+    "a14": {
+        "question": "Which 80s computer operating system, famous for its graphical interface, was later replaced by 'Windows 95'? The first letter of your answer is your letter.",
+        "answer": "Windows 3.1",
+        "letter": "W",
+        "hint": "Check around a place where old computer-related items might be stored."
+    },
+    "a15": {
+        "question": "Which 1980s Indian movie became a massive hit with the song 'Jab Koi Baat Bigad Jaye' and starred Amitabh Bachchan and Dharmendra? The first letter of your answer is your letter.",
+        "answer": "Sholay",
+        "letter": "S",
+        "hint": "Look for a clue near something related to Bollywood or classic movies."
+    },
+    "a16": {
+        "question": "Which technology, used in early computers and radios, relied on glass tubes filled with gas to control electrical signals? The first letter of your answer is your letter.",
+        "answer": "Vacuum Tubes",
+        "letter": "V",
+        "hint": "Look near a place with old electronics or radio equipment."
+    },
+    
+    "a17": {
+        "question": "Which groundbreaking 1999 movie, directed by the Wachowskis, explored themes of reality and artificial intelligence, with characters like Neo and Morpheus? The first letter of your answer is your letter.",
+        "answer": "The Matrix",
+        "letter": "M,T",
+        "hint": "Check around places with movie posters or DVD collections."
+    },
+    
+    "a18": {
+        "question": "Which famous pop star, known for his moonwalk and the hit song 'Thriller,' became a global icon in the 1980s? The first letter of your answer is your letter.",
+        "answer": "Michael Jackson",
+        "letter": "M",
+        "hint": "Look near a place where music or records are stored."
+    },
+    
+    "a19": {
+        "question": "Which addictive 1980s video game features falling blocks that must be arranged into complete lines to clear them from the screen? The first letter of your answer is your letter.",
+        "answer": "Tetris",
+        "letter": "T",
+        "hint": "Look for something related to classic video games or handheld devices."
+    },
+    
+    "a20" : {
+        "question": "Which social media platform, launched in 2004 by Mark Zuckerberg, revolutionized the way people connect and share information online? The first letter of your answer is your letter.",
+        "answer": "Facebook",
+        "letter": "F",
+        "hint": "Look for something related to social networking or digital communication."
+    }
+    
+}

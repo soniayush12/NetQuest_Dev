@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .stage {
+            margin-bottom: 20px;
+        }
+        .questions {
+            margin-bottom: 10px;
+        }
+        .add-question {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="text"], input[type="button"] {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Question Selector</h1>
+    <div id="paths"></div>
+
+    <div class="add-question">
+        <h3>Add a New Question</h3>
+        <label for="new-question">Question:</label><br>
+        <input type="text" id="new-question" placeholder="Enter the question"><br>
+        <label for="new-answer">Answer:</label><br>
+        <input type="text" id="new-answer" placeholder="Enter the answer"><br>
+        <label for="new-letter">Letter:</label><br>
+        <input type="text" id="new-letter" placeholder="Enter the first letter"><br>
+        <label for="new-hint">Hint:</label><br>
+        <input type="text" id="new-hint" placeholder="Enter the hint"><br>
+        <input type="button" value="Add Question" onclick="addNewQuestion()">
+    </div>
+
+    <script>
+        const baseJsonUrl = "https://raw.githubusercontent.com/your-repo/your-json-file/main/"; // Replace with your GitHub base URL
+        const selectedQuestions = {
+            path1: { stage1: [], stage2: [], stage3: [] },
+            path2: { stage1: [], stage2: [], stage3: [] },
+            path3: { stage1: [], stage2: [], stage3: [] },
+            path4: { stage1: [], stage2: [], stage3: [] },
+            path5: { stage1: [], stage2: [], stage3: [] }
+        };
+
+        async function fetchQuestions(stage) {
+            try {
+                const response = await fetch(`${baseJsonUrl}stage${stage}.json`);
+                if (response.ok) {
+                    return await response.json();
+                } else {
+                    return null; // If the file is not found, return null
+                }
+            } catch (error) {
+                console.error(`Error fetching questions for stage ${stage}:`, error);
+                return null;
+            }
+        }
+
+        async function initializePaths() {
+            const pathsDiv = document.getElementById("paths");
+            for (let i = 1; i <= 5; i++) {
+                const pathDiv = document.createElement("div");
+                pathDiv.className = "path";
+                pathDiv.innerHTML = `<h2>Path ${i}</h2>`;
+
+                for (let j = 1; j <= 3; j++) {
+                    const questions = await fetchQuestions(j);
+                    if (!questions) {
+                        continue; // Skip this stage if questions are not available
+                    }
+
+                    const stageDiv = document.createElement("div");
+                    stageDiv.className = "stage";
+                    stageDiv.innerHTML = `<h3>Stage ${j}</h3>`;
+                    const questionList = document.createElement("div");
+                    questionList.className = "questions";
+
+                    for (const key in questions) {
+                        const question = questions[key];
+                        const questionButton = document.createElement("button");
+                        questionButton.textContent = question.question;
+                        questionButton.onclick = () => selectQuestion(i, j, key);
+                        questionList.appendChild(questionButton);
+                    }
+
+                    stageDiv.appendChild(questionList);
+                    pathDiv.appendChild(stageDiv);
+                }
+                pathsDiv.appendChild(pathDiv);
+            }
+        }
+
+        function selectQuestion(path, stage, key) {
+            if (selectedQuestions[`path${path}`][`stage${stage}`].includes(key)) {
+                alert("This question has already been selected!");
+                return;
+            }
+
+            selectedQuestions[`path${path}`][`stage${stage}`].push(key);
+            alert(`Question added to Path ${path}, Stage ${stage}`);
+        }
+
+        function addNewQuestion() {
+            const newQuestion = document.getElementById("new-question").value;
+            const newAnswer = document.getElementById("new-answer").value;
+            const newLetter = document.getElementById("new-letter").value;
+            const newHint = document.getElementById("new-hint").value;
+
+            if (!newQuestion || !newAnswer || !newLetter || !newHint) {
+                alert("Please fill in all fields.");
+                return;
+            }
+
+            const newKey = `q${Date.now()}`;
+            const newEntry = {
+                question: newQuestion,
+                answer: newAnswer,
+                letter: newLetter,
+                hint: newHint
+            };
+
+            alert("New question added successfully!");
+            console.log("New Question: ", newEntry); // Display the new question in the console (replace this with a save function if needed)
+        }
+
+        initializePaths();
+    </script>
+</body>
+</html>

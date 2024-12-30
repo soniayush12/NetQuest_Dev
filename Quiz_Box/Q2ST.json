@@ -1,0 +1,130 @@
+{
+    "b1": {
+        "question": "Which 90s computer game was the first to feature a fully 3D environment and was known for its challenging platforming, starring a female protagonist named Lara Croft?",
+        "answer": "Tomb Raider",
+        "hint": "Look near something related to 3D gaming or adventure games."
+    },
+    "b2": {
+        "question": "Which mobile phone brand, founded in 1865, became one of the world’s largest phone manufacturers before being overtaken by smartphones and was known for its strength in India?",
+        "answer": "Nokia",
+        "hint": "Search near something related to old-school mobile phones or electronics."
+    },
+    "b3": {
+        "question": "Which iconic video game allowed players to walk through a whole city, avoiding police and criminals, and became famous for its open-world gameplay?",
+        "answer": "Grand Theft Auto",
+        "hint": "Check near a place related to video games or open-world adventures."
+    },
+    "b4": {
+        "question": "Which 1980s arcade game had players controlling a hero who jumped across platforms, avoiding enemies and collecting fruit, and was named after a famous Japanese character?",
+        "answer": "Donkey Kong",
+        "hint": "Look near a place that has vintage arcade games or retro video games."
+    },
+    "b5": {
+        "question": "Which modern streaming service, founded in 2008, is now a major player in producing original content, including hit shows like 'Stranger Things' and 'The Witcher'?",
+        "answer": "Netflix",
+        "hint": "Look near a place that has streaming services or iconic TV series memorabilia."
+    },
+    "b6": {
+        "question": "Which 90s sci-fi movie franchise introduced a simulated world where people could plug into a virtual reality environment and fight against machines?",
+        "answer": "The Matrix",
+        "hint": "Search around places connected to futuristic or digital technology."
+    },
+    "b7": {
+        "question": "In a faraway land, a brave prince must navigate through perilous traps, overcome deadly obstacles and enemies, and alter the very flow of time to save a kingdom of persia. Which game, originally released in the late 1980s, tells the story of this prince's daring adventure?",
+        "answer": "Prince of Persia: Sands of Time",
+        "hint": "Look near a place that celebrates classic platform games and epic adventures."
+    },
+    "b8": {
+        "question": "Which mobile device, released in 2007, is credited with revolutionizing the smartphone market and introducing the modern touchscreen interface?",
+        "answer": "iPhone",
+        "hint": "Search for something related to modern smartphones or tech innovations."
+    },
+    "b9": {
+        "question": "Which circular technology, resembling a shiny, flat disc, was widely used in the 90s for storing music and data, and became the primary medium for audio in that era?",
+       "answer": "CD",
+       "hint": "Look near a place with circular objects or storage items, often found in old music players and computer drives."
+    },
+    "b10": {
+        "question": "Which 1990s console, released by Sony, introduced the world to games like 'Final Fantasy VII' and 'Crash Bandicoot,' and competed with the Sega Saturn?",
+        "answer": "PlayStation",
+        "hint": "Look near a place with vintage video games or console collections."
+    },
+
+    "b11": {
+        "question": "Which mobile brand, known for its affordable, durable phones, dominated the global market in the early 2000s with devices like the 3310?",
+        "answer": "Nokia",
+        "hint": "Search near something related to classic mobile phones."
+    },
+
+    "b12": {
+        "question": "Which 1990s video game series, known for its brutal finishing moves, allowed players to battle with a roster of fighters and became a cultural phenomenon?",
+        "answer": "Mortal Kombat",
+        "hint": "Look near a place with retro fighting games or arcade cabinets."
+    },
+    "b13": {
+        "question": "Which 1999 action-packed sci-fi movie introduced the concept of 'bullet time' and became a cultural phenomenon with its groundbreaking visual effects?",
+        "answer": "The Matrix",
+        "hint": "Look around places related to futuristic technology or movies."
+    },
+    "b14": {
+        "question": "Name the caracter who was former ally of Steve Rogers, then becomes a brainwashed assassin, known for his skill in combat and iconic metal arm.",
+        "answer": "Winter Soldier : Bucky Barnes",
+        "hint": "Look for a place associated with secret military operations or a dark past."
+    },
+
+    "b15": {
+        "question": "Which iconic and controversial song from the movie *Delhi Belly* became famous for its bold lyrics and catchy beat, often associated with rebellious energy and a bit of edgy humor?",
+        "answer": "DK Bose (from Delhi Belly)",
+        "hint": "Look near a place that celebrates edgy Bollywood music or rebellious movie moments."
+    },
+    "b16": {
+        "question": "Which addictive puzzle game, created in 1984, has players fitting falling blocks together to clear lines, and remains one of the best-selling video games ever?",
+        "answer": "Tetris",
+        "hint": "Look near a place with old-school arcade games or puzzle-solving tools."
+    },
+    "b17": {
+        "question": "Which company revolutionized personal computing in the 1980s with its Macintosh computer, known for its innovative graphical user interface?",
+        "answer": "Apple",
+        "hint": "Search for a place where modern technology or computers are displayed."
+    },
+    "b18": {
+        "question": "Which 2000s social media platform, that started out with college students and later opened to the world, let you 'poke' your friends and became the digital equivalent of high school popularity?",
+        "answer": "Facebook",
+        "hint": "Look near a place where digital platforms, friends' statuses, or funny memes might live."
+    },
+    "b19": {
+        "question": "Which 2000s animated show, part of the Power Rangers franchise, features a team of robotic warriors that fight to save the world from evil forces?",
+        "answer": "Power Rangers SPD",
+        "hint": "Look near a place with superhero action figures or epic battles from the Power Rangers universe."
+    },
+    "b20": {
+        "question": "Which 90s operating system, released by Microsoft, introduced features like the 'Start' button and taskbar, which became key elements in modern Windows operating systems?",
+        "answer": "Windows 95",
+        "hint": "Search for something connected to operating systems or computing history."
+    },
+    "b21": {
+        "question": "Which 2000s action-adventure game featured a protagonist who is a criminal mastermind named Tommy Vercetti?",
+        "answer": "Grand Theft Auto: Vice City",
+        "hint": "Look near a place with vintage video game collections."
+    },
+    "b22": {
+        "question": "Which 1980s arcade game featured a character who jumped over barrels and climbed ladders to rescue a damsel in distress, and became one of Nintendo’s first major hits?",
+        "answer": "Donkey Kong",
+        "hint": "Look near a place with classic arcade games or retro consoles."
+    },
+    "b23": {
+        "question": "Which multinational technology company, founded in 1911, is known for its innovations in computing and artificial intelligence?",
+        "answer": "IBM",
+        "hint": "Think of a company that played a major role in the development of early computers."
+    },
+    "b24": {
+        "question": "Which 2010s hit mobile game had players launching birds to destroy pigs' fortresses, becoming a global obsession and spawning multiple versions?",
+        "answer": "Angry Birds",
+        "hint": "Look near a place with mobile gaming classics or modern casual games."
+    },
+    "b25": {
+        "question": "Which smartphone brand, known for its flagship Galaxy series, became a key player in the mobile industry and introduced cutting-edge features like foldable screens?",
+        "answer": "Samsung",
+        "hint": "Look near a place that celebrates modern smartphones or technological innovation."
+    }
+}
